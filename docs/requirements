@@ -1,0 +1,20 @@
+This project is for a mount that can track orbiting satellites across the sky along a full 180 degree arc, which can
+accompany a broad range of objects mounted (ideally a camera).
+Specifications are below:
+
+
+R_ID 1: Speed. Must be fast enough to track LEO objects (ISS will be used as a benchmark). The exact angular speed of
+this will be later derived.
+
+R_ID 2: Accuracy. A reasonable accuracy for tracking will be later derived during a trade study
+
+R_ID 3: Functionality. Must be able to sweep 180 degrees of skyline without impediment or any manual manipulation, and
+support a camera
+
+R_ID 4: Must be able to support a few flame stickers on it (sick as hell)
+
+
+Success criteria will be determined based on the ability of the mount to track the ISS primarily, but due to
+circumstantiality of ISS flyovers the moon will serve as a secondary benchmark.
+
+

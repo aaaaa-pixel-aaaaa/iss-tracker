@@ -15,11 +15,11 @@ I anticipate math and mechanical to be the hardest, so I am going to start with 
 Math: All math required for translating satellite orbit data into on-the-ground
 data should be complete by Sunday, October 4th (S_ID 1). One study required in the "docs" 
 directory, just outlining the core principles (doesn't need to be extensive). I'll be researching most 
-of the math from Curtis/Howard's "Orbital Mechanics for Engineering Students"
+of the math from Curtis's "Orbital Mechanics for Engineering Students"
 
 Mechanical: Gear type/setup decided (via at least 1 study, in docs directory) and parts ordered by Sunday, 4 October (S_ID 2).
-Solidworks assembly done by 11th (S_ID 3), printed
-12th at the MakerSpace (S_ID 4)
+Solidworks assembly done by 11th (S_ID 3), printed by
+17th at the MakerSpace (S_ID 4)
 
 Programming: Programming should progress naturally from math, so I'll aim to have it completed by the 11th, giving
 myself a week from when math is complete (S_ID 5)

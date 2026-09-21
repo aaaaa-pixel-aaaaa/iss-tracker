@@ -15,6 +15,4 @@ R_ID 4: Must be able to support a few flame stickers on it (sick as hell)
 
 
 Success criteria will be determined based on the ability of the mount to track the ISS primarily, but due to
-circumstantiality of ISS flyovers the moon will serve as a secondary benchmark.
-
-
+circumstantiality of ISS flyovers the moon can serve as a secondary benchmark.

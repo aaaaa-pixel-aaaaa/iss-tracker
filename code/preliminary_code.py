@@ -4,16 +4,16 @@ from astropy.coordinates import EarthLocation
 from sgp4.api import Satrec
 import math
 
-psi = float(-33.87) #lat
+psi = float(-33) #lat, update specificity later
 rad_psi = np.deg2rad(psi)
-long = float(151.27) #long
+long = float(151) #long, update specificity later
 f = float(1 / 298.26)
 C = float(1 / np.sqrt(1+f*(f-2)*(np.sin(rad_psi)**2)))
 S = float(1-f)**2*C
 a = 6378.135
 t = Time.now()
-tle1 = "1 25544U 98067A   26268.43198945  .00011731  00000-0  21853-3 0  9992" #remember to put this back to an input later
-tle2 = "2 25544  51.6316 163.9608 0004776 179.9710 180.1280 15.49288785587293"
+tle1 = "1 25544U 98067A   26269.01266413  .00010261  00000-0  19655-3 0  9997" #remember to put this back to an input later
+tle2 = "2 25544  51.6303 161.0895 0007829 186.0461 174.0434 15.48628597587381"
 # I know its poor form to just blunty list all my variables upfront, I'll clean the code down the line
 time = Time(t, location=EarthLocation(lat=psi, lon=long))
 lst = time.sidereal_time('apparent')
@@ -36,5 +36,4 @@ range = np.sqrt(S**2+E**2+Z**2)
 elevation = np.rad2deg(np.arcsin(Z / range))
 azimuth = np.rad2deg(np.arctan2(-E, S))
 
-
-
+print(elevation, azimuth)

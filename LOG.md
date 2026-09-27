@@ -16,3 +16,7 @@ TLE set though, will need to figure how to update it hands-free. Next is work on
 Wrote the code for finding elevation/azimuth from Sydney, completely handwritten. Needs quite a bit of streamlining and 
 cleaning though, is pretty inefficient as-is. This first session can be found in "preliminary_code.py". Spoke to a 4th 
 year mech student this morning who gave me some great advice on motor schematics; researching that is what comes next.
+
+## 27/9/2026 1hr
+Research on motors and gearing logistics. 3D printing makerspace badge is booked out for the next 3 weeks, going to get
+soldering badge ASAP. Next move is to refine project requirements and write trade studies on the mount.

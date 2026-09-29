@@ -7,7 +7,7 @@ Picked it back up later. Finished coordinate translation equation for an oblique
 tinkering around in python for coding coordinates/positional stuff, and work on velocity (need to figure out maximum 
 angular speed for ISS).
 
-## 23/9/2026 0.5hrs
+## 23/9/2026 0.5hr
 Didn't have much time today so just did some research on how to properly pull ISS coords. Currently thinking I'll 
 utilise SGP4 for ECI coords, then handwrite a script to convert to elevation and azimuth from Sydney. SGP4 requires the
 TLE set though, will need to figure how to update it hands-free. Next is work on code.
@@ -20,3 +20,8 @@ year mech student this morning who gave me some great advice on motor schematics
 ## 27/9/2026 1hr
 Research on motors and gearing logistics. 3D printing makerspace badge is booked out for the next 3 weeks, going to get
 soldering badge ASAP. Next move is to refine project requirements and write trade studies on the mount.
+
+## 27/9/2026 1hr
+More trade study research, started writing in criteria and preliminary structure. Getting a good sense of how to set out
+the gear but need to continue work. Next, keep scanning 3D printing makerspace badge and continue trade 
+study work
